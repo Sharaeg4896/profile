@@ -1,0 +1,53 @@
+{
+    "links": [
+      {
+        "links": [
+          {
+            "name": "Home",
+            "icon": "Home",
+            "url": "/#/",
+            "key": "key1"
+          },
+          {
+            "name": "About",
+            "url": "/#/about/",
+            "key": "key2",
+            "icon": "Info"
+          },
+          {
+            "name": "Resume",
+            "icon": "WordDocument",
+            "url": "/#/resume/",
+            "key": "key3"
+          },
+          {
+            "name": "Web applications",
+            "key": "key4",
+            "url": "/#/web-applications/",
+            "links": [
+              {
+                "icon": "Play",
+                "name": "Snake game",
+                "url": "/#/web-applications/snake-game/",
+                "key": "key5"
+              },
+              {
+                "icon": "SocialListeningLogo",
+                "name": "Social media",
+                "url": "http://msn.com",
+                "key": "key6"
+              }
+            ],
+            "isExpanded": true
+          }
+        ]
+      }
+    ],
+    "navigation": {
+      "/#/": "key1",
+      "/#/about/": "key2",
+      "/#/resume/": "key3",
+      "/#/web-applications/": "key4",
+      "/#/web-applications/snake-game/": "key5"
+    }
+  }
